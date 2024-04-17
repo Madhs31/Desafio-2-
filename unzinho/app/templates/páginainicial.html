@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="widht=device-widht, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Site-Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <div class="cabeçalho">
+    <!-- Cabeçalho -->
+        <div>
+            <img src="{{ url_for ('static', filename='logo.jpeg') }}">
+        <br>
+        <nav id="menu">
+            <ul>
+                <li><a href="páginainicial">Home</a></li>
+                <li><a href="quemsomos"> Quem somos</a></li>
+                <li><a href="contato"> Contatos</a></li>
+            </ul>
+        </nav>
+            </div>
+    </div>
+    <!-- Imagem e Texto corpo -->
+        <div>
+            <div>
+             <img  src="{{ url_for ('static', filename='capa.jpeg') }}" class="imagem" aling="center" widht="899" height="370">
+            </div>
+        </div>
+        <div>
+            <h1 class="titulo">Sobre a Universidade</h1>
+            <p class="texto"> Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. ALiquam sit amet diam ac quam dignissim lobortis vel ac sapien. Proin placerat cursus risus. Duis bladit varius hendrerit. Vavamus sed placerat turpis, vel viverra neque. DUis at tempor magna, sit amet gravida purus. Nulla facilisi. Vuvamus accumsan risus vitae risus bladit venenatis. Sed sed nils tempor, tincidunt elit sit amet, facilisis neque. Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lectus sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum cursus elit vitae lectus laoreet a.</p>
+
+            <p class="texto"> Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. ALiquam sit amet diam ac quam dignissim lobortis vel ac sapien. Proin placerat cursus risus. Duis bladit varius hendrerit. Vavamus sed placerat turpis, vel viverra neque. DUis at tempor magna, sit amet gravida purus. Nulla facilisi. Vuvamus accumsan risus vitae risus bladit venenatis. Sed sed nils tempor, tincidunt elit sit amet, facilisis neque. Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lectus sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum cursus elit vitae lectus laoreet a.</p>
+
+        </div>
+
+<!-- Rodapé -->
+    <div class="direitos">
+        <p><b>Todos os direitos reservados</b></p>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="widht=device-widht">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site-Quem Somos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css')}}">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <div class="cabeçalho">
+        <img src="{{ url_for ('static', filename='logo.jpeg') }}">
+        <nav id="menu">
+            <ul>
+                <li><a href="páginainicial">Home</a></li>
+                <li><a href="quemsomos"> Quem somos</a></li>
+                <li><a href="contato"> Contatos</a></li>
+            </ul>
+        </nav>
+    <!-- Corpo texto -->
+    <div>
+        <h2 class="titulo">Quem Somos</h2>
+            <p class="texto"> Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. ALiquam sit amet diam ac quam dignissim lobortis
+                vel ac sapien. Proin placerat cursus risus. Duis bladit varius hendrerit. Vavamus sed placerat turpis, vel viverra neque. DUis at tempor magna,
+                sit amet gravida purus. Nulla facilisi. Vuvamus accumsan risus vitae risus bladit venenatis. Sed sed nils tempor, tincidunt elit sit amet, facilisis neque.
+                Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lectus sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet,
+                 consectetur adipiscing elit. In vestibulum cursus elit vitae lectus laoreet a.</p>
+    </div>
+    <!-- Lista Ordenada -->
+    <div>
+        <h2 class="titulo"> 5 Motivos para estudar </h2>
+        <ol>
+            <li>Material sempre atualizado</li>
+            <li>Tablets em sala de aula</li>
+            <li>Professores renomados</li>
+            <li>Universidade bem avaliada</li>
+            <li>Ótima localização</li>
+        </ol>
+    </div>
+    <!-- Segundo texto -->
+    <div>
+        <h2 class="titulo"> Objetivos</h2>
+            <p class="texto"> Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. ALiquam sit amet diam ac quam dignissim lobortis
+                vel ac sapien. Proin placerat cursus risus. Duis bladit varius hendrerit. Vavamus sed placerat turpis, vel viverra neque. DUis at tempor magna,
+                sit amet gravida purus. Nulla facilisi. Vuvamus accumsan risus vitae risus bladit venenatis. Sed sed nils tempor, tincidunt elit sit amet, facilisis neque.
+                Donec rutrum mauris odio, gravida vestibulum nulla cursus vitae. Cras vestibulum lectus sed augue viverra ultrices ac nec lectus. Lorem ipsum dolor sit amet,
+                 consectetur adipiscing elit. In vestibulum cursus elit vitae lectus laoreet a.</p>
+    </div>
+    <!-- Rodapé -->
+    <div class="direitos">
+        <p><b>Todos os direitos reservados</b></p>
+    </div>
+</body>
