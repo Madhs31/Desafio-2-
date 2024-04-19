@@ -1,24 +1,6 @@
-<!Doctype html>
-<html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Viewport" content="widht=device-widht">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Site-Quem Somos</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style1.css')}}">
-</head>
-<body>
-    <!-- Cabeçalho -->
-    <div class="cabeçalho">
-        <img src="{{ url_for ('static', filename='logo.jpeg') }}">
-        <nav id="menu">
-            <ul>
-                <li><a href="páginainicial">Home</a></li>
-                <li><a href="quemsomos"> Quem somos</a></li>
-                <li><a href="contato"> Contatos</a></li>
-            </ul>
-        </nav>
-    <!-- Corpo texto -->
+{% extends 'base.html' %}
+{% block conteudo %}
+
     <div>
         <h2 class="titulo">Quem Somos</h2>
             <p class="texto"> Lorem <b>ipsum dolor</b> sit <i>amet</i>, consectetur adipiscing elit. Suspendisse sit amet mollis nisl. ALiquam sit amet diam ac quam dignissim lobortis
@@ -51,4 +33,4 @@
     <div class="direitos">
         <p><b>Todos os direitos reservados</b></p>
     </div>
-</body>
+{% endblock %}
