@@ -1,0 +1,27 @@
+<!Doctype html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="widht=device-widht, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> UNES </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <div class="cabeçalho">
+        <img src="{{ url_for ('static', filename='logo.jpeg') }}">
+        <nav id="menu">
+            <ul>
+                <li><a href="páginainicial">Home</a></li>
+                <li><a href="quemsomos"> Quem somos</a></li>
+                <li><a href="contato"> Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
+{% block conteudo %}
+{% endblock %}
