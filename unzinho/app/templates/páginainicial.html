@@ -1,27 +1,6 @@
-<!Doctype html>
-<html lang="Pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Viewport" content="widht=device-widht, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Site-Home</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
-</head>
-<body>
-    <div class="cabeçalho">
-    <!-- Cabeçalho -->
-        <div>
-            <img src="{{ url_for ('static', filename='logo.jpeg') }}">
-        <br>
-        <nav id="menu">
-            <ul>
-                <li><a href="páginainicial">Home</a></li>
-                <li><a href="quemsomos"> Quem somos</a></li>
-                <li><a href="contato"> Contatos</a></li>
-            </ul>
-        </nav>
-            </div>
-    </div>
+{% extends 'base.html' %}
+{% block conteudo %}
+
     <!-- Imagem e Texto corpo -->
         <div>
             <div>
@@ -41,5 +20,4 @@
         <p><b>Todos os direitos reservados</b></p>
     </div>
     </div>
-</body>
-</html>
+ {% endblock %}
